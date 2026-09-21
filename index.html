@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>One Year With You ❤️</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Poppins", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, #ff9eb5 0%, transparent 35%),
+        linear-gradient(135deg, #180010, #4b0928, #8e174d);
+      color: white;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 700px;
+      text-align: center;
+      padding: 40px 25px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .heart {
+      font-size: 75px;
+      animation: heartbeat 1.4s infinite;
+      filter: drop-shadow(0 0 20px #ff4f81);
+      margin-bottom: 15px;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.18);
+      }
+    }
+
+    .small-title {
+      font-size: 15px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 9vw, 72px);
+      line-height: 1.05;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #fff, #ffb6c9, #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s infinite linear;
+      background-size: 200%;
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: 200%;
+      }
+      100% {
+        background-position: -200%;
+      }
+    }
+
+    .subtitle {
+      font-size: clamp(17px, 4vw, 22px);
+      line-height: 1.7;
+      opacity: 0.92;
+      margin: 0 auto 25px;
+      max-width: 600px;
+    }
+
+    .date {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 30px;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+
+    .message-box {
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(15px);
+      border-radius: 25px;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 600px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+    }
+
+    .message-box p {
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    button {
+      border: none;
+      outline: none;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(135deg, #ff3f78, #ff6b9a);
+      box-shadow: 0 8px 25px rgba(255, 63, 120, 0.4);
+      cursor: pointer;
+      transition: 0.3s ease;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 12px 35px rgba(255, 63, 120, 0.6);
+    }
+
+    button:active {
+      transform: scale(0.96);
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      opacity: 0.65;
+    }
+
+    /* Floating hearts */
+    .floating-heart {
+      position: fixed;
+      bottom: -50px;
+      pointer-events: none;
+      animation: floatUp linear forwards;
+      z-index: 1;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+      }
+
+      10% {
+        opacity: 0.8;
+      }
+
+      100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 18px;
+      }
+
+      .heart {
+        font-size: 60px;
+      }
+
+      .message-box {
+        padding: 20px 17px;
+      }
+
+      .message-box p {
+        font-size: 15px;
+      }
+
+      button {
+        width: 90%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="heart">❤️</div>
+
+    <div class="small-title">
+      One Beautiful Year
+    </div>
+
+    <h1>Happy 1st Anniversary</h1>
+
+    <p class="subtitle">
+      One year of memories, smiles, little moments,
+      endless conversations and a love that means
+      more to me every day. ❤️
+    </p>
+
+    <div class="date">
+      ✨ 365 Days • 12 Months • Countless Memories ✨
+    </div>
+
+    <div class="message-box">
+      <p>
+        My love, ❤️<br><br>
+
+        A whole year has passed, and somehow,
+        I still get butterflies thinking about you.
+        Thank you for being a beautiful part of my life,
+        for all the laughter, the memories, the silly moments,
+        and every little moment we've shared.
+        <br><br>
+
+        This is only the beginning of our story.
+        Here's to more adventures, more memories,
+        more laughter and many more years together.
+        <br><br>
+
+        <strong>I love you today, tomorrow,
+        and every day after that. ❤️</strong>
+      </p>
+    </div>
+
+    <button onclick="celebrate()">
+      🎉 Celebrate Our Love ❤️
+    </button>
+
+    <div class="footer">
+      Made with ❤️ for the one I love
+    </div>
+
+  </div>
+
+  <!-- Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <script>
+
+    /* Confetti celebration */
+    function celebrate() {
+
+      const duration = 3000;
+      const end = Date.now() + duration;
+
+      (function frame() {
+
+        confetti({
+          particleCount: 6,
+          angle: 60,
+          spread: 70,
+          origin: { x: 0 }
+        });
+
+        confetti({
+          particleCount: 6,
+          angle: 120,
+          spread: 70,
+          origin: { x: 1 }
+        });
+
+        if (Date.now() < end) {
+          requestAnimationFrame(frame);
+        }
+
+      })();
+
+    }
+
+    /* Celebrate automatically when the page opens */
+    window.addEventListener("load", () => {
+
+      setTimeout(() => {
+        confetti({
+          particleCount: 120,
+          spread: 100,
+          origin: {
+            y: 0.65
+          }
+        });
+      }, 500);
+
+    });
+
+
+    /* Floating hearts */
+    function createHeart() {
+
+      const heart = document.createElement("div");
+
+      heart.className = "floating-heart";
+
+      const hearts = ["❤️", "💕", "💖", "💗", "💓", "💘"];
+
+      heart.innerHTML =
+        hearts[Math.floor(Math.random() * hearts.length)];
+
+      heart.style.left =
+        Math.random() * 100 + "vw";
+
+      heart.style.fontSize =
+        (15 + Math.random() * 25) + "px";
+
+      heart.style.animationDuration =
+        (5 + Math.random() * 5) + "s";
+
+      document.body.appendChild(heart);
+
+      setTimeout(() => {
+        heart.remove();
+      }, 10000);
+    }
+
+    setInterval(createHeart, 500);
+
+  </script>
+
+</body>
+</html>
